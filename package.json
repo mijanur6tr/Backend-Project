@@ -1,0 +1,11 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "this is a complete project mijanur rahman followinng hitesh choudhury on youtube.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mijanur Rahman",
+  "license": "ISC"
+}
