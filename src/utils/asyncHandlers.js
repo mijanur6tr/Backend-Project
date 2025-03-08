@@ -1,5 +1,5 @@
 const asyncHandler = (requestfn)=>{
-    (req,res,next)=>{
+    return (req,res,next)=>{
         Promise.resolve(requestfn(req,res,next)).error((error)=>next(error))
 
     }
