@@ -11,8 +11,8 @@ dotenv.config({
 
 connectDb()
 .then(()=>{
-    app.listen(4000,()=>{
-        console.log(`Server is running at 4000`)
+    app.listen(3000,()=>{
+        console.log(`Server is running at 3000`)
     })
 })
 .catch((err)=>{
