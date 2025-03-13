@@ -1,20 +1,13 @@
 const asyncHandler = (requestfn)=>{
     return (req,res,next)=>{
-        Promise.resolve(requestfn(req,res,next)).catch((error)=>next(error))
+        Promise
+        .resolve(requestfn(req,res,next))
+        .catch((error)=>next(error))
 
     }
 }
 
-
-
 export{asyncHandler}
-
-
-
-
-
-
-
 
 // const asyncHandler = (fn)=> {async ()=>{}}
     //this code is write without the curly brasis like:
